@@ -1,0 +1,32 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <link rel="stylesheet" href="style.css" />
+      <script src="index.js" defer></script>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+    </head>
+    <body>
+      <div class="inputs">
+        <input
+          type="text"
+          class="taskAdd"
+          id="taskAddInput"
+          placeholder="ur task here"
+          aria-label="Add your task"
+        />
+        <button class="add" onclick="update()">add</button>
+        <button class="del" onclick="del()">remove</button>
+      </div>
+      <div class="tasksList">
+        <div id="liElements">
+          <div class="list">
+            <ul id="list">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
